@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "videoCapture_slide", "videoCapture_slide\videoCapture_slide.vcxproj", "{439E6725-A087-42C0-A5FA-9233DD125C18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439E6725-A087-42C0-A5FA-9233DD125C18}.Debug|x64.ActiveCfg = Debug|x64
+		{439E6725-A087-42C0-A5FA-9233DD125C18}.Debug|x64.Build.0 = Debug|x64
+		{439E6725-A087-42C0-A5FA-9233DD125C18}.Debug|x86.ActiveCfg = Debug|Win32
+		{439E6725-A087-42C0-A5FA-9233DD125C18}.Debug|x86.Build.0 = Debug|Win32
+		{439E6725-A087-42C0-A5FA-9233DD125C18}.Release|x64.ActiveCfg = Release|x64
+		{439E6725-A087-42C0-A5FA-9233DD125C18}.Release|x64.Build.0 = Release|x64
+		{439E6725-A087-42C0-A5FA-9233DD125C18}.Release|x86.ActiveCfg = Release|Win32
+		{439E6725-A087-42C0-A5FA-9233DD125C18}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9913598-9421-44D3-BE53-4786702278A8}
+	EndGlobalSection
+EndGlobal
