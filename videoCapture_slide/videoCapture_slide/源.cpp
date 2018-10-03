@@ -22,7 +22,7 @@ void onTrackbarSlide(int pos, void *)  //滑块位置回调函数
 int main(int argc, char** argv)
 {
 	cv::namedWindow("Example3", cv::WINDOW_AUTOSIZE);
-	g_cap.open(string(argv[1])); //打开视频文件，这里好像内存会泄露还没找到解决办法
+    g_cap.open(argv[1]); //打开视频文件 
 	int frames = (int)g_cap.get(cv::CAP_PROP_FRAME_COUNT); //计算视频帧数
 	int tmpw = (int)g_cap.get(cv::CAP_PROP_FRAME_WIDTH);
 	int tmph = (int)g_cap.get(cv::CAP_PROP_FRAME_HEIGHT);
